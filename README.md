@@ -25,24 +25,31 @@ Using [ls -la]  provided a detailed view, including hidden files. The output rev
 
 <h2>Permission String Explained</h2>
 
-  - File Type (1st Character):
+  - <b>File Type (1st Character):</b>
     - [ d ] indicates the item is a directory.
     - [ - ] indicates a regular file.
 
-  - User (Owner) Permissions (Characters 2-4):
+  - <b>User (Owner) Permissions (Characters 2-4):</b>
     - [ r ] means the user has read permission.
     - [ w ] means the user has write permission.
     - [ x ] means the user has execute permission.
     - [ - ] indicates that the permission is not granted to the user.
 
-  - Group Permissions (Characters 5-7):
+  - <b>Group Permissions (Characters 5-7):</b>
     - [ r ] means the group has read permission.
     - [ w ] means the group has write permission.
     - [ x ] means the group has execute permission.
     - [ - ] indicates that the permission is not granted to the group.
 
-  - Other Users' Permissions (Characters 8-10):
+  - <b>Other Users' Permissions (Characters 8-10):</b>
     - [ r ] means other users have read permission.
     - [ w ] means other users have write permission.
     - [ x ] means other users have execute permission.
-    - [ - ] indeicates that the permission is not granted to users outside the owner and group.
+    - [ - ] indicates that the permission is not granted to users outside the owner and group.
+
+  <h2>Change File Permissions</h2>
+    - Audit: Identify any files with incorrect or insecure permission settings.
+    - Adjust: Modify the permissions to eliminate unauthorized access, thereby bolstering system security.
+    - Restriction: Ensure that no files grant write access to users categorized as "others."
+
+
